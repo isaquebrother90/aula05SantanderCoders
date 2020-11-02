@@ -1,0 +1,92 @@
+/*body { 
+    padding: 15px; 
+    background:#eee; 
+    font-family: Arial, Helvetica, sans-serif }
+     
+.caixa {
+    border: solid 1px #666; 
+    padding: 5px 10px;
+    margin: 40px;
+}
+    
+.area-visivel span {
+    color: #666;
+    display: none;
+}
+    
+/* max-width  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .tres {
+        background: #9CF;
+    }
+    span.bt600-900 {
+        display: inline-block;
+    }
+}
+    
+/* max device width */
+@media screen and (max-device-width: 480px) {
+    .iphone {
+        background: #ccc;
+    }
+}
+
+body {
+    background-color: rgb(76, 76, 218);
+}
+
+.container {
+    background-color: white;
+    max-width: 500px;
+    min-height: 100px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.line1, .line2, .line3, .line4 {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.1px solid gray;
+}
+
+.line4:last-of-type{
+    border-bottom: 2px solid white;
+}
+
+.imagem1, .informacoes1, .imagem2, .informacoes2, .imagem3, .informacoes3, .imagem4, .informacoes4 {
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    display: flex;   
+}
+
+.imagem1 img, .imagem2 img, .imagem3 img, .imagem4 img {
+    max-width: 90px;
+}
+
+.imagem1, .imagem2, .imagem3, .imagem4 {
+    width: 100px;
+}
+
+.informacoes1, .informacoes2, .informacoes3, .informacoes4 {
+    width: 80%;
+}
+
+@media screen and (min-width: 900px) {
+    .dois {
+        background: #F90;
+    }
+    span.gt900 {
+        display: inline-block;
+    }
+}
+
